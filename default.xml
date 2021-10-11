@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+repo manifest file to import library dependencies to a project. 
+-->
+<manifest>
+
+    <remote name="origin" fetch="https://github.com/"/>
+    <default revision="master" remote="origin"/>
+
+    <project path="lib/fieldtrip"
+             name="fieldtrip/fieldtrip.git" remote="origin"/>
+    
+    <project path="lib/datajoint"
+             name="datajoint/datajoint-matlab.git" remote="origin"/>
+
+</manifest>
+
+
+    
